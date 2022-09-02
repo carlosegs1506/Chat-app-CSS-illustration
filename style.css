@@ -1,0 +1,339 @@
+/* font-family: 'Barlow', sans-serif; */
+* {
+	box-sizing: border-box;
+}
+body, p {
+	margin: 0px;
+}
+.container {
+	margin: 0px auto;
+	max-width: 1440px;
+}
+.principal {
+	display: grid;
+	grid-template-columns: 30% 25% 20% 25%;
+	height: 1000px;
+	position: relative;
+	width: 100%;
+}
+.background {
+	background-color: hsl(276, 55%, 52%);
+	border-bottom-right-radius: 100%;
+	height: 650px;
+	position: absolute;
+	width: 50%;
+	z-index: 1;
+}
+.telefono {
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	height: 700px;
+	left: 15%;
+	padding: 15px;
+	position: absolute;
+	top: 60px;
+	width: 70%;
+	z-index: 10;
+}
+.section {
+	background-color: rgb(247, 241, 241);
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+}
+header {
+	background: linear-gradient(45deg,  blueviolet, rgb(230, 84, 217));
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 80px;
+	position: absolute;
+	width: 100%;
+}
+.white {
+	background-color: white;
+	border-radius: 20px;
+	height: 30px;
+	left: 25%;
+	position: absolute;
+	top: -15px;
+	width: 50%;
+}
+.icono img {
+	height: 20px;
+	left: 10px;
+	position: absolute;
+	top: 30px;
+	width: 20px;
+}
+.img img {
+	border: 2px solid white;
+	border-radius: 50%;
+	height: 40px;
+	left: 30px;
+	position: absolute;
+	top: 20px;
+	width: 40px;
+}
+.avatar h3 {
+	color: rgb(247, 241, 241);
+	left: 80px;
+	margin: 0px;
+	position: absolute;
+	top: 30px;
+}
+.available h5 {
+	color: rgb(238, 233, 243);
+	left: 80px;
+	margin: 0px;
+	opacity: 0.5;
+	position: absolute;
+	top: 50px;
+}
+.tres img {
+	height: 20px;
+	left: 90%;
+	position: absolute;
+	top: 30px;
+	width: 20px;
+}
+.text-1 {
+	background-color: rgb(226, 222, 217);
+	border-radius: 10px;
+	color: rgb(107, 14, 194);
+	font-size: 13px;
+	margin-left: 10px;
+	padding: 10px;
+	position: absolute;
+	top: 110px;
+	width: 70%;
+}
+.text-2 {
+	background-color: rgb(226, 222, 217);
+	border-radius: 10px;
+	color: rgb(107, 14, 194);
+	font-size: 13px;
+	margin-left: 10px;
+	padding: 10px;
+	position: absolute;
+	top: 175px;
+	width: 70%;
+}
+.img-1 img,
+.img-2 img,
+.img-3 img {
+	border-radius: 10px;
+	height: 50px;
+	padding: 0px 3px;
+	position: absolute;
+	top: 250px;
+	width: 50px;
+}
+.img-1 img {
+	margin-left: 30%;
+}
+.img-2 img {
+	margin-left: 50%;
+}
+.img-3 img {
+	margin-left: 70%;
+}
+.text-3 {
+	background-color: white;
+	border-radius: 10px;
+	color: rgb(107, 14, 194);
+	font-size: 13px;
+	margin-left: 75px;
+	padding: 10px;
+	position: absolute;
+	top: 310px;
+	width: 60%;
+}
+.text-4 {
+	background-color: white;
+	border-radius: 10px;
+	color: rgb(107, 14, 194);
+	font-size: 13px;
+	margin-left: 110px;
+	padding: 10px;
+	position: absolute;
+	top: 375px;
+	width: 50%;
+}
+.text-5 {
+	background-color: rgb(226, 222, 217);
+	border-radius: 10px;
+	color: rgb(107, 14, 194);
+	font-size: 13px;
+	margin-left: 10px;
+	padding: 10px;
+	position: absolute;
+	top: 425px;
+	width: 65%;
+}
+.btn-1, .btn-2 {
+	background: linear-gradient(45deg,  blueviolet, rgb(230, 84, 217));
+	border-radius: 10px 10px 10px 5px;
+	color: white;
+	font-size: 13px;
+	height: 30px;
+	margin-left: 10px;
+	position: absolute;
+	width: 70%;
+}
+.btn-1 {
+	top: 520px;
+}
+.btn-2 {
+	top: 560px;
+}
+.btn-1
+.btn-2, p {
+	left: 30px;
+	position: absolute;
+	top: 20%;
+}
+.btn-1
+.btn-2, span {
+	left: 160px;
+	position: absolute;
+	top: 20%;
+}
+.input {
+	position: absolute;
+	top: 5px;
+}
+footer {
+	background-color: rgb(221, 221, 208);
+	border-radius: 20px;
+	height: 40px;
+	margin-left: 10px;
+	position: absolute;
+	top: 92%;
+	width: 90%;
+}
+footer p {
+	color: rgb(29, 28, 28);
+	opacity: 0.2;
+}
+.send {
+	background-color: hsl(271, 36%, 24%);
+	border-radius: 100%;
+	left: 85%;
+	padding: 4px 8px;
+	position: absolute;
+	top: 15%;
+}
+.fas {
+	color: hsl(0, 0%, 100%);
+	margin: 0px;
+}
+.texto {
+	height: 200px;
+	left: 10%;
+	position: absolute;
+	top: 75%;
+	width: 80%;
+	z-index: 3;
+}
+.texto h2 {
+	color: hsl(271, 36%, 24%);
+	margin: 0px;
+	padding-top: 30px;
+	text-align: center;
+}
+.texto p {
+	color: hsl(271, 36%, 24%);
+	left: 0px;
+	margin: 0px;
+	opacity: 0.3;
+	padding: 40px 10px 10px 10px;
+	text-align: center;
+}
+.transparente {
+	background-color: hsl(276, 55%, 52%);
+	border-top-left-radius: 100%;
+	bottom: 0px;
+	height: 650px;
+	opacity: 0.1;
+	position: absolute;
+	right: 0px;
+	width: 50%;
+	z-index: 2;
+}
+.attribution {
+	margin: 20px;
+}
+
+@media screen and (min-width: 600px){
+    .background{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .telefono{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .texto{
+        left: 55%;
+        top: 30%;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .texto h2 {
+        font-size: 32px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .texto p {
+        font-size: 20px;
+        padding-left: 0px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .transparente {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .img-1 img,
+    .img-2 img,
+    .img-3 img {
+        padding: 0px;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text-3{
+        margin-left: 32%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text-4{
+        top: 55%;
+        margin-left: 42%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    span{
+        left: 90%;
+    }
+}
+
+    
+
